@@ -1,6 +1,11 @@
 # APP
 
 GymPass style app.
+App criado utilizando Node, Typescript, Prisma, Docker, validação de dados com Zod
+e testes, sendo unitários, de integração e E2E com Vitest.
+
+A ideia do projeto é se aprofundar em conceitos do SOLID e outros Design Patterns
+importantes, como: Repository e Factory
 
 <!-- O que o usuário poderá fazer na plataforma -->
 ## RFs (Requisitos funcionais)
