@@ -17,7 +17,7 @@ importantes, como: Repository, Factory e In Memory Database
 - [ ] Deve ser possível o usuário obter seu histórico de check-ins;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
-- [ ] Deve ser possível o usuário realizar check-in em uma academia;
+- [X] Deve ser possível o usuário realizar check-in em uma academia;
 - [ ] Deve ser possível validar o check-in de um usuário;
 - [ ] Deve ser possível cadastrar uma academia;
 
