@@ -13,6 +13,7 @@ export interface ICheckInResponse {
 
 export interface IFetchUserCheckInsHistoryUseCaseRequest {
   userId: string
+  page: number
 }
 
 export interface IFetchUserCheckInsHistoryUseCaseResponse {
