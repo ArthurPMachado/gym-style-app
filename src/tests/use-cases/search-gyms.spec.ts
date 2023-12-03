@@ -40,25 +40,25 @@ describe('Search Gyms Use Case', () => {
   })
 
   it('should be able to fetch paginated gym search', async () => {
-    for (let i = 1; i <= 22; i++) {
+    for (let gymInteration = 1; gymInteration <= 22; gymInteration++) {
       await gymRepository.create({
-        title: `JavaScript Gym ${i}`,
+        title: `Gym yeah buddy ${gymInteration}`,
         description: null,
         phone: null,
-        latitude: -27.2092052,
-        longitude: -49.6401091,
+        latitude: 0,
+        longitude: 0,
       })
     }
 
     const { gyms } = await sut.execute({
-      query: 'JavaScript',
+      query: 'Gym yeah buddy',
       page: 2,
     })
 
     expect(gyms).toHaveLength(2)
     expect(gyms).toEqual([
-      expect.objectContaining({ title: 'JavaScript Gym 21' }),
-      expect.objectContaining({ title: 'JavaScript Gym 22' }),
+      expect.objectContaining({ gym_id: 'Gym yeah buddy 21' }),
+      expect.objectContaining({ gym_id: 'Gym yeah buddy 22' }),
     ])
   })
 })
