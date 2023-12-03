@@ -27,3 +27,11 @@ export interface IGetUserMetricsUseCaseRequest {
 export interface IGetUserMetricsUseCaseResponse {
   checkInsCount: number
 }
+
+export interface IValidateCheckInRequest {
+  checkInId: string
+}
+
+export interface IValidateCheckInResponse {
+  checkIn: CheckIn
+}
