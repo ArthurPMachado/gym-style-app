@@ -57,8 +57,8 @@ describe('Search Gyms Use Case', () => {
 
     expect(gyms).toHaveLength(2)
     expect(gyms).toEqual([
-      expect.objectContaining({ gym_id: 'Gym yeah buddy 21' }),
-      expect.objectContaining({ gym_id: 'Gym yeah buddy 22' }),
+      expect.objectContaining({ title: 'Gym yeah buddy 21' }),
+      expect.objectContaining({ title: 'Gym yeah buddy 22' }),
     ])
   })
 })
