@@ -18,7 +18,7 @@ importantes, como: Repository, Factory e In Memory Database
 - [X] Deve ser possível o usuário buscar academias próximas (até 10km);
 - [X] Deve ser possível o usuário buscar academias pelo nome;
 - [X] Deve ser possível o usuário realizar check-in em uma academia;
-- [ ] Deve ser possível validar o check-in de um usuário;
+- [X] Deve ser possível validar o check-in de um usuário;
 - [X] Deve ser possível cadastrar uma academia;
 
 <!-- Condições para que o usuário possa utilizar a funcionalidade do RF
