@@ -11,3 +11,12 @@ export interface ICreateGymUseCaseRequest {
 export interface ICreateGymUseCaseResponse {
   gym: Gym
 }
+
+export interface ISearchGymUseCaseRequest {
+  query: string
+  page: number
+}
+
+export interface ISearchGymUseCaseResponse {
+  gyms: Gym[]
+}
