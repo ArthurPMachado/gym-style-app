@@ -38,8 +38,8 @@ describe('Fetch User Check-in History Use Case', () => {
 
   it('should be able to fetch paginated user check-in history', async () => {
     for (
-      let checkInInteration = 0;
-      checkInInteration < 22;
+      let checkInInteration = 1;
+      checkInInteration <= 22;
       checkInInteration++
     ) {
       await checkInRepository.create({
