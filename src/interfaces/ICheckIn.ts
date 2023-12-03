@@ -19,3 +19,11 @@ export interface IFetchUserCheckInsHistoryUseCaseRequest {
 export interface IFetchUserCheckInsHistoryUseCaseResponse {
   checkIns: CheckIn[]
 }
+
+export interface IGetUserMetricsUseCaseRequest {
+  userId: string
+}
+
+export interface IGetUserMetricsUseCaseResponse {
+  checkInsCount: number
+}
