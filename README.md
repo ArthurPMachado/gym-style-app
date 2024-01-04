@@ -35,6 +35,6 @@ Não pode ter uma RN nao associada a uma RF -->
 ## RNFs (Requisitos não funcionais)
 
 - [X] A senha do usuário precisa estar criptografada;
-- [X] Os dados da aplicação precisar estar persistidos em um banco PostgreSQL;
-- [X] Todas listas de dados precisar estar paginados com 20 itens por página;
+- [X] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
+- [X] Todas listas de dados precisam estar paginados com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
