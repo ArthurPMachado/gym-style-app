@@ -43,7 +43,7 @@ Não pode ter uma RN nao associada a uma RF -->
 
 ## A Node app to bind users to gyms and validate their check-ins
 
-The ideia behind the project is to connect users to close gyms in their proximity,
+The idea behind the project is to connect users to close gyms in their proximity,
 with a similar approach to what apps like GymPass does, which get closer gyms and 
 register their check-in.
 
