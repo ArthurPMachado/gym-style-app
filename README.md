@@ -56,6 +56,7 @@ and some of other design patterns, like: Repository, Factory and In Memory Datab
 * Fastify
 * Prisma
 * Docker
+* PostgreSQL
 * JWT
 * Vitest
 * Zod
