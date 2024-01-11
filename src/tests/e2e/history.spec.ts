@@ -40,11 +40,9 @@ describe('Check-in History (e2e)', async () => {
     })
 
     const response = await request(app.server)
-      .post('/check-ins/history')
+      .get('/check-ins/history')
       .set('Authorization', `Bearer ${token}`)
       .send()
-
-    console.log(response)
 
     expect(response.statusCode).toEqual(200)
     expect(response.body.checkIns).toEqual([

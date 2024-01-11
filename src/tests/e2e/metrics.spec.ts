@@ -40,11 +40,9 @@ describe('Check-in Metrics (e2e)', async () => {
     })
 
     const response = await request(app.server)
-      .post('/check-ins/metrics')
+      .get('/check-ins/metrics')
       .set('Authorization', `Bearer ${token}`)
       .send()
-
-    console.log(response)
 
     expect(response.statusCode).toEqual(200)
     expect(response.body.checkInsCount).toEqual(2)
