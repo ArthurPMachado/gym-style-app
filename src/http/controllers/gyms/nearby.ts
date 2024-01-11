@@ -3,7 +3,7 @@ import { nearbyGymsQuerySchema } from '@/schemas/nearby-gyms-query-schema'
 import { makeFetchNearbyGymsUseCase } from '@/use-cases/factories/make-fetch-nearby-gyms-use-case'
 
 export async function nearby(request: FastifyRequest, reply: FastifyReply) {
-  const { latitude, longitude } = nearbyGymsQuerySchema.parse(request.body)
+  const { latitude, longitude } = nearbyGymsQuerySchema.parse(request.query)
 
   const fetchNearbyGymsUseCase = makeFetchNearbyGymsUseCase()
 
